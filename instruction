@@ -1,0 +1,10 @@
+!.) Create a PHP as your backend And add the information in this 
+    def connect():
+        con=pymysql.connect(
+            host='localhost',
+            user='root',
+            password='',
+            db='stock_mangement'
+        )    
+
+2) you can edit any prdoct id element in py file for flexiblity
